@@ -18,6 +18,6 @@
         echo "<p>merchant_account_id: ".$_GET["merchant_account_id"]."</p>";
 	?>
 
-<script src="https://www.mercadopago.com/v2/security.js" view="item"></script>
+<script src="https://www.mercadopago.com/v2/security.js" view=""></script>
 </body>
 </html>

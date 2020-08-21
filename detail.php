@@ -58,9 +58,9 @@ $preference->payer = $payer;
 
 // URL de retorno
 $preference->back_urls = array(
-    "success" => "https://flordemol-mp-commerce-php.herokuapp.com/success",
-    "failure" => "https://flordemol-mp-commerce-php.herokuapp.com/failure",
-    "pending" => "https://flordemol-mp-commerce-php.herokuapp.com/pending"
+    "success" => "https://flordemol-mp-commerce-php.herokuapp.com/success.php",
+    "failure" => "https://flordemol-mp-commerce-php.herokuapp.com/failure.php",
+    "pending" => "https://flordemol-mp-commerce-php.herokuapp.com/pending.php"
 );
 $preference->auto_return = "approved";
 
@@ -204,7 +204,7 @@ $preference->save();
                                         </h3>
                                     </div>
                                     <!-- Redirect (Redirige al 'init_point' de la preferencia) -->
-                                    <a href="<?php echo $preference->init_point; ?>" class="mercadopago-button">Pagar la compra</a>
+                                    <a href="<?php echo $preference->init_point; ?>" class="mercadopago-button" style="padding=2px;">>Pagar la compra</a>
                                 </div>
                             </div>
                         </div>
