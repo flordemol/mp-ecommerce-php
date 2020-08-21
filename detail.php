@@ -65,7 +65,7 @@ $preference->back_urls = array(
 $preference->auto_return = "approved";
 
 $preference->external_reference = "florenciademollein@gmail.com";
-$preference->notification_url = "https://flordemol-mp-commerce-php.herokuapp.com/notificaciones";
+$preference->notification_url = "https://flordemol-mp-commerce-php.herokuapp.com/notificaciones.php";
 
 $preference->save();
 ?>
