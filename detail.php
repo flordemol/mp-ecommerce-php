@@ -18,7 +18,7 @@ $preference->payment_methods = array(
     array("id" => "amex")
   ),
   "excluded_payment_types" => array(
-    array("id" => "redlink")
+    array("id" => "atm")
   ),
   "installments" => 6
 );
@@ -204,7 +204,7 @@ $preference->save();
                                         </h3>
                                     </div>
                                     <!-- Redirect (Redirige al 'init_point' de la preferencia) -->
-                                    <a href="<?php echo $preference->init_point; ?>">Pagar la compra</a>
+                                    <a href="<?php echo $preference->init_point; ?>" class="mercadopago-button">Pagar la compra</a>
                                 </div>
                             </div>
                         </div>
