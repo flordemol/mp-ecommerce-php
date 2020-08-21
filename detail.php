@@ -65,7 +65,7 @@ $preference->back_urls = array(
 $preference->auto_return = "approved";
 
 $preference->external_reference = "florenciademollein@gmail.com";
-$preference->notification_url = "https://a2f6784d0dcae454e429845c90fb8abd.m.pipedream.net";
+$preference->notification_url = "https://845c4944bb36183efddfad94b60eae87.m.pipedream.net/notificaciones.php";
 
 $preference->save();
 ?>
